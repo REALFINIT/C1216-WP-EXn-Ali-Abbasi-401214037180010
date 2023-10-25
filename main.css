@@ -1,0 +1,13 @@
+.ALI {
+    background-color: black;
+    color: azure;
+    font-size: 65px;
+}
+.menu {
+    background-color: aliceblue;
+    color: black;    
+}
+.menu :hover {
+    background-color: black;
+    color: aliceblue;
+}
