@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    background-color: #1a237e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(2, 16, 220, 0.866);
+  }
+
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .resume-section {
+    margin-bottom: 20px;
+  }
+
+  .resume-section h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a237e;
+  }
+
+  .resume-section ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resume-section ul li {
+    margin-bottom: 10px;
+  }
+
+  .progress-back{
+    background-color: rgb(182, 182, 182);
+    border-radius: 0px 20px 20px 20px;
+    margin-bottom: 10px;
+
+  }
+  #wp-progress{
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 20px 20px;
+    width:90%;
+  }
+
+  #Jom-progress{
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 20px 20px;
+    width:30%;
+  }
+
+  #Ps-progress{
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 20px 20px;
+    width:60%;
+  }
+
+  #corel-progress{
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 20px 20px;
+    width:30%;
+  }
+
+  #office-progress{
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 20px 20px;
+    width:70%;
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+    }
+  }
